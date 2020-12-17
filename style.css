@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  background-color: #4578f7;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .navbar {
+  width: 375px;
+  height: 500px;
+  background-color: #fff;
+}
+
+.container .navbar .navbar__google ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+.container .navbar .navbar__google ul li {
+  list-style: none;
+}
+
+.container .navbar .navbar__google ul li a img {
+  width: 22px;
+  background-color: #fff;
+  color: #999;
+}
+
+.container .navbar .navbar__google ul span li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .navbar .navbar__google ul span li #text {
+  border: none;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000;
+  width: 70px;
+  font-size: 14px;
+  background: transparent;
+}
+
+.container .navbar .navbar__google ul span li img {
+  width: 18px;
+}
+
+.container .navbar .navbar__abror :hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.container .navbar .navbar__abror .navbar__card {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(70, 119, 247, 0.5)), to(rgba(70, 119, 247, 0.8))), url(/img/map.png);
+  background: linear-gradient(rgba(70, 119, 247, 0.5), rgba(70, 119, 247, 0.8)), url(/img/map.png);
+  margin-top: 15px;
+  width: 100%;
+  height: 100px;
+  background-color: #7b9aed;
+  position: relative;
+}
+
+.container .navbar .navbar__abror .navbar__card .navbar__city {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container .navbar .navbar__abror .navbar__card .navbar__city li {
+  list-style: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.container .navbar .navbar__abror .navbar__card .navbar__distance {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+.container .navbar .navbar__abror .navbar__card .navbar__distance li {
+  list-style: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+.container .navbar .navbar__abror .navbar__card .navbar__button {
+  position: absolute;
+  -webkit-transform: translateX(180%);
+          transform: translateX(180%);
+  top: 88%;
+  background: #4578f7;
+  width: 120px;
+  height: 28px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  text-transform: uppercase;
+}
+
+.container .navbar .navbar__abror .navbar__card .navbar__button a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 900;
+}
+
+.container .navbar .navbar__abror .navbar__card .navbar__button img {
+  width: 20px;
+}
+
+.container .navbar .navbar__menu {
+  margin: 10px 10px 0;
+}
+
+.container .navbar .navbar__menu h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container .navbar .navbar__menu .navbar__direction {
+  margin: 15px;
+}
+
+.container .navbar .navbar__menu .navbar__direction span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .navbar .navbar__menu .navbar__direction span ul {
+  padding-left: 15px;
+}
+
+.container .navbar .navbar__menu .navbar__direction span ul li {
+  list-style: none;
+}
+
+.container .navbar .navbar__menu .navbar__direction1 {
+  margin: 15px;
+}
+
+.container .navbar .navbar__menu .navbar__direction1 span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .navbar .navbar__menu .navbar__direction1 span ul {
+  padding-left: 15px;
+}
+
+.container .navbar .navbar__menu .navbar__direction1 span ul li {
+  list-style: none;
+}
+
+.container .navbar .navbar__menu .navbar__direction2 {
+  margin: 15px;
+}
+
+.container .navbar .navbar__menu .navbar__direction2 span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .navbar .navbar__menu .navbar__direction2 span ul {
+  padding-left: 15px;
+}
+
+.container .navbar .navbar__menu .navbar__direction2 span ul li {
+  list-style: none;
+}
+
+.container .navbar .navbar__menu .navbar__img {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.4))), url(./img/streetview.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(./img/streetview.jpg);
+  margin-left: 10px;
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+
+.container .navbar .navbar__menu .navbar__img .navbar__marker {
+  position: absolute;
+  top: 25%;
+  -webkit-transform: translateX(30%);
+          transform: translateX(30%);
+}
+
+.container .navbar .navbar__menu .navbar__direction3 {
+  margin: 15px;
+}
+
+.container .navbar .navbar__menu .navbar__direction3 span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .navbar .navbar__menu .navbar__direction3 span ul {
+  padding-left: 15px;
+}
+
+.container .navbar .navbar__menu .navbar__direction3 span ul li {
+  list-style: none;
+}
+/*# sourceMappingURL=style.css.map */
